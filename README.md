@@ -37,38 +37,4 @@ Technologies Used
 <!-- 8. Monitoring and Logging: We've implemented monitoring and logging tools, such as ELK (Elasticsearch, Logstash, and Kibana), to ensure our system is running smoothly. Monitoring and logging tools help us -->
 
 
-## Getting Started in the local sever or development.
-
-1.First, run the command to install all the dependencies and pakages which are required to run the application:
-```bash
-npm install
-```
-2.Then configure you env file in main folder  `.env.local` file name and these variables are important for running the application. Below are the variables names and the values which are accpected:
-``````bash
-
-MONGO_URI='your mongoDB url or connection string'
-
-SECRET_KEY='a secret key for hashing the user password'
-
-NEXT_PUBLIC_MEDIA_TO_MEDIAURL_CONVERTER='your cloudinary url to convert the img file to data url'
-
-NEXT_PUBLIC_CLOUD_NAME='cloud name for cloudinary'
-
-NEXT_PUBLIC_UPLOAD_PRESET='cloud preset for cloudinary'
-
-PRODUCTION_DOMAIN='production domain (optional)'
-
-DEVELOPMENT_DOMAIN=http://localhost:3000
-
-``````
-
-3.After completing the above steps run the command to start the application or run the development server:
-
-```bash
-npm run dev
-#or
-yarn dev
-```
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
 
